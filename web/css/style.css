@@ -1,0 +1,342 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+}
+
+.btn {
+  border: 3px solid #FEC63E;
+  padding: 10px 30px;
+  color: #FEC63E;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: white;
+  border-color: white;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 10px auto;
+}
+
+.subtitulo-branco {
+  color: #FEC63E;
+  border-color: #FEC63E;
+}
+
+.subtitulo-branco::after {
+  background: #FEC63E;
+}
+
+/* ------------- */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FEC63E;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: white;
+}
+
+.introducao {
+  width: 100%;
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  margin-top: 92px;
+  height: 380px;
+  text-align: center;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+}
+
+.quote-externo {
+  max-width: 320px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p::before, .quote-externo p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+.produtos {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.produtos_lista li {
+  background: #FEC63E;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  background: #FEC63E;
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+
+.produtos_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 2px auto;
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_lista_icone {
+  background: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.call {
+  text-align: center;
+  clear: both;
+  padding-top: 40px;
+}
+
+.call-text-white {
+  color: white;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+.btn-preto:hover {
+  color: black;
+  border-color: black;
+}
+
+.portfolio {
+  width: 100%;
+  background: black;
+  padding: 40px 0;
+}
+
+.portfolio li:last-child {
+  margin-top: 20px;
+}
+
+.qualidade {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.qualidade ul {
+  padding-top: 20px;
+  overflow: auto;
+}
+
+.qualidade ul li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade ul li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase; 
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+
+.qualidade ul li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 6px auto;
+  z-index: -1;
+}
+
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 211px;
+  right: 162px;
+}
+
+.qualidade > img {
+  margin: 0 auto;
+}
+
+.quebra {
+  width: 100%;
+  height: 169px;
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 27px;
+}
+
+.quebra .quote-externo {
+  max-width: 400px;
+}
+
+.footer {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FEC63E;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FEC63E;
+  margin: 6px 0 12px 0;
+}
+
+.footer-historia {
+  padding-right: 40px;
+}
+
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.footer-redes ul {
+  display: flex; 
+}
+
+.footer-redes ul li {
+  border: 3px solid #FEC63E;
+  border-radius: 1px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-redes ul li:hover {
+  border-color: white;
+}
+
+.footer-redes ul li a {
+  padding: 6px;
+}
+
+.copyright {
+  width: 100%;
+  background: #FEC63E;
+}
+
+.copyright p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 18px 0;
+}
