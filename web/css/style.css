@@ -10,6 +10,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -180,6 +181,11 @@ img {
   background: black;
   padding: 20px;
   text-align: center;
+}
+
+.produtos_lista_icone img {
+  display: block;
+  margin: 0 auto;
 }
 
 .call {

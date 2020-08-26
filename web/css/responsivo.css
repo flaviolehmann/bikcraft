@@ -1,0 +1,43 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+}
+
+@media only screen and (max-width: 787px) {
+  .header {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .header img {
+    margin: 0 auto 20px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid black;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+  
+  .header_menu ul li a:hover {
+    color: white;
+    border-color: white;
+  }
+
+  .introducao {
+    margin-top: 0;
+    height: 400px;
+  }
+
+  .introducao h1 {
+    padding-top: 20px;
+  }
+}
