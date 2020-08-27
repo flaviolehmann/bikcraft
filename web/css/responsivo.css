@@ -1,5 +1,28 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  
+  .qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 211px;
+    right: 66px;
+  }
+  
+  .qualidade ul li {
+    padding: 0 10px;
+  }
 
+  .footer-redes ul li a {
+    padding: 6px;
+  }
+
+  .footer-redes ul li a img {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 @media only screen and (max-width: 787px) {
@@ -38,6 +61,11 @@
   }
 
   .introducao h1 {
-    padding-top: 20px;
+    padding-top: 40px;
+    font-size: 36px;
+  }
+
+  .qualidade::after {
+    display: none;
   }
 }
