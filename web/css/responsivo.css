@@ -65,7 +65,27 @@
     font-size: 36px;
   }
 
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
   .qualidade::after {
     display: none;
+  }
+
+  .menu-ativo {
+    color: white !important;
+    border-color: white !important;
+  }
+
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
