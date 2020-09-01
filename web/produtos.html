@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/simple-anime.css">
 	</head>
 	<body>
 		<header class="header">
@@ -31,13 +32,13 @@
 		<!-- INTRO -->
 		<section class="introducao-interna interna-produtos" >
 			<div class="container">
-				<h1> Produtos </h1>
-				<p> conheça todos os nossos produtos </p>
+				<h1 data-anime="400"> Produtos </h1>
+				<p data-anime="800"> conheça todos os nossos produtos </p>
 			</div>
     </section>
     
     <!-- PRODUTOS - PASSEIO -->
-    <section class="container produto-item">
+    <section class="container produto-item" data-anime="1200">
       <div class="grid-11">
         <img src="img/produtos/bikcraft-passeio-1.jpg" alt="bicicleta de passeio">
         <h2> Passeio </h2>
@@ -186,6 +187,9 @@
 					<p class="grid-16"> Bikcraft 2020 - Alguns direitos reservados. </p>
 				</div>
 			</div>
-		</footer>
+    </footer>
+    
+    <script src="./js/simple-anime.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
