@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/contato.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		<link rel="stylesheet" href="css/simple-anime.css">
 	</head>
 	<body>
 		<header class="header">
@@ -31,13 +32,13 @@
 		<!-- INTRO -->
 		<section class="introducao-interna interna-sobre">
 			<div class="container">
-				<h1> Contato </h1>
-				<p> tire suas dúvidas com a gente </p>
+				<h1 data-anime="400"> Contato </h1>
+				<p data-anime="800"> tire suas dúvidas com a gente </p>
 			</div>
 		</section>
 
 		<!-- CONTATO -->
-    <section class="container contato">
+    <section class="container contato" data-anime="1200">
 			<form id="form-orcamento" class="grid-8 form">
 				<label for="nome"> Nome </label>
 				<input id="nome">
@@ -122,5 +123,8 @@
 				</div>
 			</div>
 		</footer>
+
+		<script src="./js/simple-anime.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
