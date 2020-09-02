@@ -39,18 +39,18 @@
 
 		<!-- CONTATO -->
     <section class="container contato" data-anime="1200">
-			<form id="form-orcamento" class="grid-8 form">
+			<form id="form-orcamento" class="grid-8 form" method="POST" action="./enviar.php">
 				<label for="nome"> Nome </label>
-				<input id="nome">
+				<input id="nome" name="nome" required>
 
 				<label for="email"> Email </label>
-				<input id="email">
+				<input id="email" type="email" name="email" required>
 
 				<label for="telefone"> Telefone </label>
-				<input id="telefone">
+				<input id="telefone" name="telefone">
 
 				<label for="espec"> Telefone </label>
-				<textarea id="espec"></textarea>
+				<textarea id="espec" name="mensagem" required></textarea>
 
 				<button class="btn" type="submit"> Enviar </button>
 			</form>
